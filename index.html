@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Usability Clone</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
   </head>
   <body>
     <!-- top banner -->
@@ -28,16 +29,19 @@
             <li><a href="#" class="hover-link">customer</a></li>
             <li><a href="#" class="hover-link">pricing</a></li>
             <li><a href="#" class="hover-link">resources</a></li>
-            <li><a href="#" class="hover-link secondary-btn">sign in</a></li>
-            <li><a href="#" class="hover-link primary-btn">sign up</a></li>
+            <li href="#" class="hover-link primary-btn">Sign In</li>
+            <li href="#" class="hover-link secondary-btn">Sign Up</li>
           </ul>
         </div>
+        <a href="#" class="toggle-btn">
+          <i class="fa-solid fa-bars"></i>
+        </a>
       </div>
     </nav>
 
     <!-- header section -->
     <header class="section-gap">
-      <div class="container flex">
+      <div class="container flex header-section">
         <div class="header-left flex">
           <h1>Design Confidently</h1>
           <p>
@@ -134,7 +138,7 @@
       </div>
     </section>
     <section class="big-feature-section section-gap">
-      <div class="container flex">
+      <div class="container flex feature-col">
         <div class="feature-img">
           <img src="./assets/asset 18.png" alt="" />
         </div>
@@ -148,8 +152,8 @@
         </div>
       </div>
     </section>
-    <section class="big-feature-section section-gap">
-      <div class="container flex">
+    <section class="big-feature-section section-gap ">
+      <div class="container flex" id="feature-rev">
         <div class="feature-desc">
           <h4>Optimisation for</h4>
           <h3>Marketers</h3>
@@ -165,7 +169,7 @@
       </div>
     </section>
     <section class="big-feature-section section-gap">
-      <div class="container flex">
+      <div class="container flex feature-col">
         <div class="feature-img">
           <img src="./assets/asset 24.png" alt="" />
         </div>
@@ -205,24 +209,24 @@
         </div>
       </div>
     </section>
-<!--  CTA SECTION -->
+    <!-- cta section -->
     <section class="section-gap cta-section flex">
       <h2>Start testing today</h2>
       <p>Take the guesswork out of design decisions</p>
       <a href="#" class="primary-btn">Get Started</a>
     </section>
-    <!-- Footer section -->
+
     <footer>
       <div class="container flex footer-section">
         <a href="#" class="logo">
-          <img src="assets/asset 1.png" alt="Company logo">
+          <img src="./assets/asset 1.png" alt="company logo" />
         </a>
 
         <div class="col-menu flex">
           <h4>products</h4>
           <a href="#">overview</a>
           <a href="#">pricing</a>
-          <a href="#">usability</a>
+          <a href="#">usability hub</a>
           <a href="#">customer page</a>
           <a href="#">status page</a>
         </div>
@@ -230,7 +234,7 @@
           <h4>products</h4>
           <a href="#">overview</a>
           <a href="#">pricing</a>
-          <a href="#">usability</a>
+          <a href="#">usability hub</a>
           <a href="#">customer page</a>
           <a href="#">status page</a>
         </div>
@@ -238,13 +242,12 @@
           <h4>products</h4>
           <a href="#">overview</a>
           <a href="#">pricing</a>
-          <a href="#">usability</a>
+          <a href="#">usability hub</a>
           <a href="#">customer page</a>
           <a href="#">status page</a>
         </div>
       </div>
     </footer>
-<!-- SUB FOOTER -->
     <div class="sub-footer flex">
       <a href="#">privacy policy</a>
       <a href="#">security information</a>
@@ -254,7 +257,7 @@
       <a href="">
         <i class="fa-brands fa-facebook"></i>
       </a>
-      <a href="#">Developed by Priyanshu Goel from ABES E ngineering college,Ghaziabad</a>
+      <a href="#">Develped by XXX from ABES Engineering College, Ghaziabad</a>
     </div>
     <script
       src="https://kit.fontawesome.com/06431ec618.js"
